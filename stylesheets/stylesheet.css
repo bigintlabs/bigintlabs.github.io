@@ -282,31 +282,38 @@ Full-Width Styles
 
 #header_wrap {
   background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: #e6ebea;
+  background: -webkit-linear-gradient(top, #e6ebea, #e6ebea);
+  background: -moz-linear-gradient(top, #e6ebea, #e6ebea);
+  background: -webkit-linear-gradient(top, #e6ebea, #e6ebea);
+  background: -ms-linear-gradient(top, #e6ebea, #e6ebea);
+  background: -o-linear-gradient(top, #e6ebea, #e6ebea);
+  background: linear-gradient(top, #e6ebea, #e6ebea);
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 50px 10px 10px 10px;
 }
 
 #project_title {
   margin: 0;
-  color: #fff;
+  /* color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #111 0px 0px 10px; */
+  text-indent: -9999px;
+	background: url(http://static.tumblr.com/ef7648c3f43ee249e0e3f8abb2050ee6/lrkgkyv/dpjmuxdrd/tumblr_static_bigint.png) no-repeat;
+	background-size: 238px 58px;
+	height: 80px;
+	display: block;
 }
 
 #project_tagline {
-  color: #fff;
+  color: #10255c;
   font-size: 24px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  /* text-shadow: #111 0px 0px 10px; */
 }
 
 #downloads {
